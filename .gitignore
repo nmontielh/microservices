@@ -10,3 +10,92 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#Archivos ignore que incluyen archivos de IDE
+# Ignore all targets
+target
+**/*.class
+
+# Ignore IntelliJ Stuff
+.idea/
+*.iml
+**/*.iml
+*.ipr
+*.iws
+
+# Ignore eclipse stuff
+.settings/
+.classpath
+.project
+.metadata/
+test-output/
+.springBeans
+.pydevproject
+.tern-project
+*-testng-*
+orbtrc.*.txt
+Servers/*
+
+# Ignore Miscellaneous stuff
+**/*.log
+changes.txt
+reminders.txt
+
+# Ignore netbeans stuff
+nbactions.xml
+
+# Mac OSX temporal files
+*.DS_Store
+**/*.orig
+*.ipr
+*.iws
+
+# Dependencias binarias de proyectos externos
+lib/*.jar
+
+# **/classes/**
+**/target/classes/**
+**/WEB-INF/classes/**
+
+# Archivos temporales swap de python
+*.swp
+
+# Ignore  MANIFEST
+*.MF
+
+# Ignore Bin
+*bin
+
+# checkstyle
+*checkstyle
+
+# Python files
+*.pyc
+
+# Archivo de status de patches
+status
+
+# Archivos bak
+*.bak
+
+
+# Se quitan archivos del eclipse ultima version
+META-INF/maven
+
+# Ignoramos el package para linux-max
+package.sh
+*.jasper
+
+# Archivos de configuración de NetBeans.
+nb-configuration.xml
+classes/
+
+#Se quitan los temporales del word
+~$*
+
+#Se quitan archivos que terminan en tilde
+**/*~
+
+# Se quitan lo generado por pmd
+*.pmd
+pmd-report.txt
